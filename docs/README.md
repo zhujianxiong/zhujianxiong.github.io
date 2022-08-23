@@ -3,7 +3,7 @@ home: true
 heroText: 书中自有黄金屋，书中自有颜如玉
 tagline: 不积硅步，无以至千里
 actionText: 进入查看 →
-actionLink: /pages/daily/test1.md
+actionLink: /pages/daily/工具笔记.md
 features:
 - title: 记录旅途时光
   details: 闲暇时光，驻足回看，曾经的旅途记忆，别有一番感悟。
