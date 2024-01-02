@@ -27,10 +27,17 @@ module.exports = {
         // ],
         nav: [
             { text: "首页", link: "/" },
-            { text: "我的笔记", link: "/pages/daily/工具笔记.md" },
-            { text: "前端总结", link: "/javascript/" },
+            {
+                text: '我的文章',
+                items: [
+                    { text: '我的掘金', link: "https://juejin.cn/user/2963939081592974/posts" },
+                    { text: '我的语雀', link: "https://www.yuque.com/qingting-vmge7/qunhov" },
+                ]
+            },
+            // { text: "我的掘金", link: "https://juejin.cn/user/2963939081592974/posts" },
+            { text: "前端学习", link: "/pages/daily/工具笔记.md" },
+            { text: "记录总结", link: "/javascript/" },
             { text: "生活感悟", link: "/life/" },
-            { text: "我的掘金", link: "https://juejin.cn/user/2963939081592974" },
             { text: 'Github', link: 'https://github.com/' }
         ],
         sidebar: {
